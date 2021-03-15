@@ -25,10 +25,6 @@ public static void main(String[] args) {
 		
 		driver.manage().window().maximize();
 		
-		//driver.get("https://www.supremenewyork.com/shop/all");
-		//driver.findElement(By.linkText("shoes")).click();
-		//driver.findElement(By.xpath("//img[contains(@alt,'Dwnkz') and contains(@alt,'rsknm')]")).click();
-		
 		driver.get("https://www.supremenewyork.com/shop/accessories/hwz7l51x4/tgo15pwq9");
 		
 		Select dropSize = new Select(driver.findElement(By.name("s")));
