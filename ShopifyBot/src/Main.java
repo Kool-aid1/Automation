@@ -35,11 +35,11 @@ public static void main(String[] args) {
 		wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.xpath("/html/body/div[2]/div/div[1]/div/a[2]")))).click();
 		
 		driver.findElement(By.id("order_billing_name")).sendKeys("Kenny Ly");
-		driver.findElement(By.id("order_email")).sendKeys("ktly23@yahoo.com");
-		driver.findElement(By.id("order_tel")).sendKeys("858-232-8884");
-		driver.findElement(By.id("bo")).sendKeys("5220 Conrad Ave.");
-		driver.findElement(By.id("order_billing_zip")).sendKeys("92117");
-		driver.findElement(By.id("order_billing_city")).sendKeys("San Diego");
+		driver.findElement(By.id("order_email")).sendKeys("k****@gmail.com");
+		driver.findElement(By.id("order_tel")).sendKeys("***-***-****");
+		driver.findElement(By.id("bo")).sendKeys("1234 ***********");
+		driver.findElement(By.id("order_billing_zip")).sendKeys("12345");
+		driver.findElement(By.id("order_billing_city")).sendKeys("*********");
 		driver.findElement(By.id("order[billing_country]")).sendKeys("USA");
 		
 	}
